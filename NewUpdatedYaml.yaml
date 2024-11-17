@@ -1,0 +1,24 @@
+# Application settings
+url: "My Awesome App"
+version: "1.0.0"
+debug: true  # Set to false for production
+
+# Logging configuration (example)
+logging:
+  level: "info"
+  file: "/var/log/myapp.log"
+
+# Database configuration
+database:
+  name: "my_database"
+  user: "root"
+  password: "secure_password"  # Replace with a secure password retrieval method
+
+# User roles (example)
+user_roles:
+  admin:
+    permissions: ["read", "write", "delete"]
+  editor:
+    permissions: ["read", "write"]
+  viewer:
+    permissions: ["read"]
